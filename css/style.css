@@ -386,7 +386,7 @@ header .bg-barra5 ul li a:hover {
   .rosario {
     display: inline-block;
     position: relative;
-    left: -198px;
+    left: -170px;
   }
   .iconos-redes {
     padding: 10%;
@@ -408,7 +408,7 @@ header .bg-barra5 ul li a:hover {
   .rosariohis {
     display: inline-block;
     position: relative;
-    left: -190px;
+    left: -170px;
   }
   .iconos-redes {
     padding: 10%;
@@ -430,7 +430,7 @@ header .bg-barra5 ul li a:hover {
   .rosarionos {
     display: inline-block;
     position: relative;
-    left: -190px;
+    left: -170px;
   }
   .iconos-redes {
     padding: 10%;
@@ -461,7 +461,7 @@ header .bg-barra5 ul li a:hover {
     display: inline-block;
     position: relative;
     left: -50px;
-    top: 150px;
+    top: 50px;
   }
   .facebook {
     display: inline-block;
@@ -479,12 +479,12 @@ header .bg-barra5 ul li a:hover {
   .rosariocat {
     display: inline-block;
     position: relative;
-    left: -190px;
+    left: -155px;
   }
   .rosariosucu {
     display: inline-block;
     position: relative;
-    left: -190px;
+    left: -170px;
   }
 }
 
