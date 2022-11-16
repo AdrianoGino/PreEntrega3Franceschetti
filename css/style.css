@@ -1,0 +1,491 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+/*index*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+header .bg-barra {
+  background-color: black;
+}
+header .bg-barra ul li a {
+  transition: all 0s;
+}
+header .bg-barra ul li a:hover {
+  border-bottom: 2px solid yellow;
+}
+
+main section {
+  height: 80vh;
+  background-image: linear-gradient(rgba(16, 16, 16, 0.8), rgba(16, 16, 16, 0.9)), url(fondo3.png);
+  background-size: cover;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}
+
+div {
+  grid-column: 6/9;
+  grid-row: 2/6;
+  color: white;
+}
+
+h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 2em;
+  color: yellow;
+}
+h1:hover {
+  transition: all 2s;
+  color: white;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+p:hover {
+  transition: all 2s;
+  color: yellow;
+}
+
+h4 {
+  font-size: 2em;
+  color: yellow;
+}
+h4:hover {
+  transition: all 2s;
+  color: white;
+}
+
+.footerinicio {
+  display: grid;
+  height: 103px;
+  align-items: center;
+  background-color: black;
+  color: white;
+  grid-template-areas: "contactenos iconos-redes";
+}
+.footerinicio .contactenos {
+  grid-template-areas: contactenos;
+  display: flex;
+  justify-content: flex-start;
+  padding: 9px;
+  font-family: "Inter", sans-serif;
+}
+.footerinicio .rosario {
+  display: inline-block;
+  position: relative;
+  right: 890px;
+}
+.footerinicio .rosario:hover {
+  transition: all 2s;
+  color: yellow;
+}
+
+/*HISTORIA*/
+header .bg-barra2 {
+  background-color: black;
+}
+header .bg-barra2 ul li a {
+  transition: all 0s;
+}
+header .bg-barra2 ul li a:hover {
+  border-bottom: 2px solid yellow;
+}
+
+main .mainhis {
+  height: 80vh;
+  background-image: linear-gradient(rgba(16, 16, 16, 0.8), rgba(16, 16, 16, 0.9)), url(fonedi.png);
+  background-size: cover;
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.divhis {
+  color: white;
+}
+.divhis .parrafo {
+  font-family: "Montserrat", sans-serif;
+}
+.divhis .parrafo:hover {
+  transition: all 2s;
+  color: yellow;
+}
+.divhis .parrafo h1 {
+  color: yellow;
+}
+.divhis .parrafo h1:hover {
+  transition: all 2s;
+  color: white;
+}
+
+.footerhis {
+  display: grid;
+  height: 103px;
+  align-items: center;
+  background-color: black;
+  color: white;
+  grid-template-areas: "contactenos iconos-redes";
+}
+.footerhis .contactenos2 {
+  grid-template-areas: contactenos;
+  display: flex;
+  justify-content: flex-start;
+  padding: 9px;
+  font-family: "Inter", sans-serif;
+}
+.footerhis .rosariohis {
+  display: inline-block;
+  position: relative;
+  right: 890px;
+}
+.footerhis .rosariohis:hover {
+  transition: all 2s;
+  color: yellow;
+}
+
+/*NOSOTROS*/
+header .bg-barra3 {
+  background-color: black;
+}
+header .bg-barra3 ul li a {
+  transition: all 0s;
+}
+header .bg-barra3 ul li a:hover {
+  border-bottom: 2px solid yellow;
+}
+
+.mainnos {
+  height: 80vh;
+  background-image: linear-gradient(rgba(16, 16, 16, 0.8), rgba(16, 16, 16, 0.9)), url(fonedi.png);
+  background-size: cover;
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.divnos {
+  color: white;
+}
+.divnos .h1N {
+  color: yellow;
+}
+.divnos .h1N:hover {
+  transition: all 2s;
+  color: white;
+}
+.divnos .h1N .pnos {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.divnos .h1N .pnos:hover {
+  transition: all 2s;
+  color: yellow;
+}
+
+.footernos {
+  display: grid;
+  height: 103px;
+  align-items: center;
+  background-color: black;
+  color: white;
+  grid-template-areas: "contactenos iconos-redes";
+}
+.footernos .contactenos3 {
+  grid-template-areas: contactenos;
+  display: flex;
+  justify-content: flex-start;
+  padding: 9px;
+  font-family: "Inter", sans-serif;
+}
+.footernos .rosarionos {
+  display: inline-block;
+  position: relative;
+  right: 890px;
+}
+.footernos .rosarionos:hover {
+  transition: all 2s;
+  color: yellow;
+}
+.footernos .rosarionos .iconos-redes {
+  grid-template-areas: iconos-redes;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 193px;
+}
+
+/*SUCURSALES*/
+header .bg-barra6 {
+  background-color: black;
+}
+header .bg-barra6 ul li a {
+  transition: all 0s;
+}
+header .bg-barra6 ul li a:hover {
+  border-bottom: 2px solid yellow;
+}
+
+.mainsucu {
+  height: 80vh;
+  background-image: linear-gradient(rgba(16, 16, 16, 0.8), rgba(16, 16, 16, 0.9)), url(fondo3.png);
+  background-size: cover;
+  max-width: 100%;
+}
+
+.footerSucu {
+  display: grid;
+  height: 103px;
+  align-items: center;
+  background-color: black;
+  color: white;
+  grid-template-areas: "contactenos iconos-redes";
+}
+.footerSucu .contactenos6 {
+  grid-template-areas: contactenos;
+  display: flex;
+  justify-content: flex-start;
+  padding: 9px;
+  font-family: "Inter", sans-serif;
+}
+.footerSucu .contactenos6 .rosariosucu {
+  display: inline-block;
+  position: relative;
+  right: 890px;
+}
+.footerSucu .contactenos6 .rosariosucu:hover {
+  transition: all 2s;
+  color: yellow;
+}
+.footerSucu .contactenos6 .iconos-redes {
+  grid-template-areas: iconos-redes;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 193px;
+}
+
+/*CONTACTO*/
+header .bg-barra4 {
+  background-color: black;
+}
+header .bg-barra4 ul li a {
+  transition: all 0s;
+}
+header .bg-barra4 ul li a:hover {
+  border-bottom: 2px solid yellow;
+}
+
+main .maincon {
+  height: 80vh;
+  background-image: linear-gradient(rgba(16, 16, 16, 0.8), rgba(16, 16, 16, 0.9)), url(fondo3.png);
+  background-size: cover;
+  max-width: 100%;
+}
+main .maincon .divcon .instagram {
+  display: inline-block;
+  position: relative;
+  right: -20px;
+}
+main .maincon .divcon .instagram:hover {
+  transform: scale(2);
+}
+main .maincon .divcon .facebook {
+  display: inline-block;
+  position: relative;
+  top: 350px;
+  right: 60px;
+}
+main .maincon .divcon .facebook:hover {
+  transform: scale(2);
+}
+main .maincon .divcon .whatsapp {
+  display: inline-block;
+  position: relative;
+  top: 175px;
+  right: 175px;
+}
+main .maincon .divcon .whatsapp:hover {
+  transform: scale(2);
+}
+
+.footercon {
+  display: grid;
+  height: 103px;
+  align-items: center;
+  background-color: black;
+  color: white;
+  grid-template-areas: "contactenos iconos-redes";
+}
+.footercon .contactenos4 {
+  grid-template-areas: contactenos;
+  display: flex;
+  justify-content: flex-start;
+  padding: 9px;
+  font-family: "Inter", sans-serif;
+}
+.footercon .rosariocon {
+  display: inline-block;
+  position: relative;
+  right: 890px;
+}
+.footercon .rosariocon:hover {
+  transition: all 2s;
+  color: yellow;
+}
+
+/*CATALOGO*/
+header .bg-barra5 {
+  background-color: black;
+}
+header .bg-barra5 ul li a {
+  transition: all 0s;
+}
+header .bg-barra5 ul li a:hover {
+  border-bottom: 2px solid yellow;
+}
+
+.maincat {
+  height: 90vh;
+  background-image: linear-gradient(rgba(16, 16, 16, 0.8), rgba(16, 16, 16, 0.9)), url(fondo3.png);
+  background-size: cover;
+  max-width: 100%;
+  color: white;
+}
+
+.footercat {
+  display: grid;
+  height: 103px;
+  align-items: center;
+  background-color: black;
+  color: white;
+  grid-template-areas: "contactenos iconos-redes";
+}
+.footercat .contactenos5 {
+  grid-template-areas: contactenos;
+  display: flex;
+  justify-content: flex-start;
+  padding: 9px;
+  font-family: "Inter", sans-serif;
+}
+.footercat .rosariocat {
+  display: inline-block;
+  position: relative;
+  right: 890px;
+}
+.footercat .rosariocat:hover {
+  transition: all 2s;
+  color: yellow;
+}
+
+@media only screen and (max-width: 500px) {
+  .navbar-toggler-icon {
+    color: white;
+  }
+  .maininicio .divini {
+    grid-column: 1/9;
+    grid-row: 3/7;
+  }
+  .rosario {
+    display: inline-block;
+    position: relative;
+    left: -198px;
+  }
+  .iconos-redes {
+    padding: 10%;
+    padding-left: 2px;
+    color: white;
+  }
+  .navbar2 {
+    position: relative;
+    background-color: black;
+  }
+  .navbar2 .menu2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .mainhis {
+    height: 350vh;
+  }
+  .rosariohis {
+    display: inline-block;
+    position: relative;
+    left: -190px;
+  }
+  .iconos-redes {
+    padding: 10%;
+    padding-left: 2px;
+    color: white;
+  }
+  .navbar3 {
+    position: relative;
+    background-color: black;
+  }
+  .navbar3 .menu3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .mainnos {
+    height: 100vh;
+  }
+  .rosarionos {
+    display: inline-block;
+    position: relative;
+    left: -190px;
+  }
+  .iconos-redes {
+    padding: 10%;
+    padding-left: 2px;
+    color: white;
+  }
+  .navbar4 {
+    position: relative;
+    background-color: black;
+  }
+  .navbar4 .menu4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .maincon {
+    height: 100vh;
+  }
+  .instagram {
+    display: inline-block;
+    position: relative;
+    left: -70px;
+    top: 100px;
+    bottom: 450px;
+    font-size: 150px;
+  }
+  .whatsapp {
+    display: inline-block;
+    position: relative;
+    left: -50px;
+    top: 150px;
+  }
+  .facebook {
+    display: inline-block;
+    position: relative;
+    top: 150px;
+  }
+  .rosariocon {
+    display: inline-block;
+    position: relative;
+    left: -45px;
+  }
+  .maincat {
+    height: 85vh;
+  }
+  .rosariocat {
+    display: inline-block;
+    position: relative;
+    left: -190px;
+  }
+  .rosariosucu {
+    display: inline-block;
+    position: relative;
+    left: -190px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

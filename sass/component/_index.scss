@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import"../base/variables";
+@import"../base/mapas";
+@import"../base/mixins";
+
+
+/*index*/
+
+header {
+    .bg-barra {
+        background-color: $colblack;
+        ul {
+            li { 
+                a {
+                    transition: all 0s;
+                    &:hover {
+                    border-bottom: 2px solid $colyellow;
+                }
+            }
+        }
+    }
+}
+}
+
+main {
+    section { height: map-get($cuerpo , height);
+        background-image: linear-gradient(rgba(16, 16, 16, 0.8), rgba(16, 16, 16, 0.9)), url(fondo3.png);
+        background-size: map-get($cuerpo, background-size);
+        max-width: map-get($cuerpo , max-width);
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(8, 1fr); }
+    }
+
+    div { grid-column: 6/9;
+        grid-row: 2/6;
+        color: $colwhite;}
+
+        h1 { font-family: "Roboto Slab", serif;
+            font-size: 2em;
+            color: $colyellow;
+            &:hover {
+                transition: all 2s;
+                color: $colwhite;
+            } }
+            p {  font-family: "Montserrat", sans-serif;
+                @include parrafo (1.5em);
+                font-weight: 300;
+                &:hover {
+                    transition: all 2s;
+                    color: $colyellow;
+                }}
+                h4 { font-size: 2em;
+                    color: $colyellow;
+                    &:hover {
+                        transition: all 2s;
+                        color: $colwhite;
+                    }
+
+                }
+.footerinicio { display: grid;
+                    height: 103px;
+                    align-items: center;
+                    background-color: $colblack;
+                    color: $colwhite;
+                    grid-template-areas: 'contactenos iconos-redes'; 
+                
+                    .contactenos { grid-template-areas: contactenos;
+                        display: flex;
+                        justify-content: flex-start;
+                        padding: 9px;
+                        font-family: 'Inter', sans-serif;
+                        
+            }   
+                   .rosario {
+                    display: inline-block;
+                    position: relative;
+                    right: 890px;
+                    &:hover { transition: all 2s;
+                    color: $colyellow;}
+                   }
+            
+            
+            
+            
+            }           
+
+
+
+
+

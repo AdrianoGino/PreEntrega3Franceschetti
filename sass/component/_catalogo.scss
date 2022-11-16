@@ -1,0 +1,48 @@
+@import"../base/variables";
+@import"../base/mapas";
+@import"../base/mixins";
+
+/*CATALOGO*/
+header {
+    .bg-barra5 {
+        background-color: $colblack;
+        ul {
+            li { 
+                a {
+                    transition: all 0s;
+                    &:hover {
+                    border-bottom: 2px solid $colyellow;
+                }
+            }
+        }
+    }
+}
+}
+
+.maincat {   height: 90vh;
+    background-image: linear-gradient(rgba(16,16,16,.8),rgba(16,16,16,.9)),  url(fondo3.png); 
+    background-size: map-get($cuerpo, background-size);
+   max-width: map-get($cuerpo , max-width);
+   color: $colwhite; }
+
+   .footercat {  display: grid;
+    height: 103px;
+    align-items: center;
+    background-color: $colblack;
+    color: $colwhite;
+    grid-template-areas: 'contactenos iconos-redes';
+    
+     .contactenos5 { grid-template-areas: contactenos;
+        display: flex;
+        justify-content: flex-start;
+        padding: 9px;
+        font-family: 'Inter', sans-serif;}
+       
+       .rosariocat { display: inline-block;
+       position: relative;
+       right: 890px;
+       &:hover { transition: all 2s;
+        color: yellow;}
+
+        
+}    }

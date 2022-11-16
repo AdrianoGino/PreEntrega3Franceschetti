@@ -1,0 +1,146 @@
+@import"../base/variables";
+@import"../base/mapas";
+@import"../base/mixins";
+
+@media only screen and (max-width: 500px) {
+
+    .navbar-toggler-icon {
+        color: $colwhite;
+    }
+          .maininicio .divini{
+        grid-column: 1/9;
+        grid-row: 3/7;
+    }
+          .rosario { display: inline-block;
+        position: relative;
+          left: -198px;}
+          
+          .iconos-redes { 
+           padding: 10%;
+           padding-left: 02px;
+           color: $colwhite; } 
+
+    .navbar2 {
+            position: relative;
+            background-color: black;
+           }
+           .navbar2 .menu2 { display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            }
+        
+            .mainhis {
+                height: 350vh;
+            }      
+            .rosariohis {
+                display: inline-block;
+                position: relative;
+                left: -190px;
+            }
+            .iconos-redes { 
+                padding: 10%;
+                padding-left: 02px;
+                color: $colwhite;} 
+
+    .navbar3 {
+              position: relative;
+              background-color: black;
+                   }
+                   .navbar3 .menu3 { display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    }
+                    
+                    .mainnos {
+                        height: 100vh;
+                    }
+                    
+                    .rosarionos {
+                        display: inline-block;
+                        position: relative;
+                        left: -190px;
+                    }
+                    .iconos-redes { 
+                        padding: 10%;
+                        padding-left: 02px;
+                        color: $colwhite;} 
+        .navbar4 {
+                  position: relative;
+                  background-color: black;
+                           }
+                .navbar4 .menu4 { display: flex;
+                        flex-direction: column;
+                        justify-content: flex-end;
+                            }
+                            
+                            .maincon {
+                                height: 100vh;
+                            }   
+                
+                           
+                
+                            .instagram {
+                                display: inline-block;
+                                position: relative;
+                                left: -70px;
+                                top: 100px;
+                                bottom: 450px;
+                                font-size: 150px; }
+                
+                        
+                           
+                
+                            .whatsapp {
+                                display: inline-block;
+                                position: relative;
+                                left: -50px;
+                                top: 150px;
+                            }
+                              
+                            .facebook { display: inline-block;
+                            position: relative;
+                             top: 150px;}
+                           
+                
+                           
+                            .rosariocon {
+                                display: inline-block;
+                                position: relative;
+                                left:-45px;
+                            }
+
+
+                            .maincat {
+                                height: 85vh;
+                            }  
+                            
+                         .rosariocat {
+                            display: inline-block;
+                                position: relative;
+                                left:-190px;
+                         }   
+
+                       .rosariosucu {
+                        display: inline-block;
+                        position: relative;
+                        left: -190px;
+                       }
+                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
