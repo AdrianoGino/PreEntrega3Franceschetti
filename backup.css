@@ -16,7 +16,7 @@ padding: 0;}
 
 
 
-
+/*
 .bg-barra {
     background-color: black;
 }
@@ -113,7 +113,7 @@ grid-template-areas: 'contactenos iconos-redes';
 
 
 /*hisotria*/
-
+/*
 .bg-barra2 {
     background-color: black;
 }
@@ -197,7 +197,7 @@ grid-template-areas: 'contactenos iconos-redes';
     
     
     /*NOSOTROS*/
-
+/*
     .bg-barra3 {
         background-color: black;
     }
@@ -273,7 +273,7 @@ grid-template-areas: 'contactenos iconos-redes';
  
         
         /*contacto*/
-       
+       /*
         .bg-barra4 {
             background-color: black;
         }
@@ -393,7 +393,7 @@ grid-template-areas: 'contactenos iconos-redes';
             
             /*catalogo*/
            
-
+/*
     .bg-barra5 {
         background-color: black;
     }
@@ -462,7 +462,7 @@ grid-template-areas: 'contactenos iconos-redes';
 
 
 /*Sucursales*/
-
+/*
 .bg-barra6 {
     background-color: black;
 }
