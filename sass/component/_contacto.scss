@@ -24,24 +24,14 @@ main {
         background-image: linear-gradient(rgba(16,16,16,.8),rgba(16,16,16,.9)),  url(fondo3.png); 
         background-size: map-get($cuerpo, background-size);
         max-width: map-get($cuerpo , max-width);
-        .divcon{
-            .instagram{ display: inline-block;
-                position: relative;
-                right: -20px;
-                &:hover{transform: scale(2);} }
-            .facebook{ display: inline-block;
-                position: relative;
-                top: 350px;
-                right: 60px;
-                &:hover {transform: scale(2);}}
-            .whatsapp{ display: inline-block;
-                position: relative;
-                top: 175px;
-                right: 175px;
-                &:hover {transform: scale(2);}}
-                
-            
-    }
+       #galeria .col-lg-4 {
+        padding: 5px;
+        margin: 0 !important;
+       }
+      #galeria img {
+        width: 100;
+        height: 250px;
+      }
 
 }
 }   
