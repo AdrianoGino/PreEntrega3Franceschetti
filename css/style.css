@@ -279,14 +279,6 @@ main .maincon {
   background-size: cover;
   max-width: 100%;
 }
-main .maincon #galeria .col-lg-4 {
-  padding: 5px;
-  margin: 0 !important;
-}
-main .maincon #galeria img {
-  width: 100;
-  height: 250px;
-}
 
 .footercon {
   display: grid;
